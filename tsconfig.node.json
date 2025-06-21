@@ -21,7 +21,6 @@
     "noFallthroughCasesInSwitch": true,
 
     "types": ["vite/client", "react"],
-"verbatimModuleSyntax": true,
 
 "noUnusedLocals": false,
 "noUnusedParameters": false
