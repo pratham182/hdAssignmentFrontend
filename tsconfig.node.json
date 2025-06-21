@@ -3,7 +3,7 @@
     "incremental": true,
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.node.tsbuildinfo",
     "target": "ES2022",
-    "lib": ["ES2023"],
+    "lib": ["ES2023", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "skipLibCheck": true,
     "jsx": "react-jsx",
@@ -21,11 +21,10 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
 
-    
-    "lib": ["DOM", "DOM.Iterable", "ESNext"],
-    "types": ["vite/client"]
+    "types": ["vite/client", "react"],
+"verbatimModuleSyntax": true
 
 
   },
-  "include": ["vite.config.ts"]
+  "include": ["src", "vite.config.ts"]
 }
