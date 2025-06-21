@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { Notification } from "./Notification";
 import { useNavigate } from 'react-router-dom';
-import { CredentialResponse } from '@react-oauth/google';
+import type { CredentialResponse } from '@react-oauth/google';
 
 // type CredentialResponse = {
 //   credential: string;
