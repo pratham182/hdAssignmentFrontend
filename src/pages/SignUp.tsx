@@ -85,7 +85,7 @@ const SignUp=()=>{
       }
       setLoading(true);
       try {
-        const response= await axios.post("http://localhost:2000/api/auth/verify-otp", {
+        const response= await axios.post(`${apiBaseUrl}/auth/verify-otp`, {
           email: formData.email,
           otp: data.otp,
         },{
